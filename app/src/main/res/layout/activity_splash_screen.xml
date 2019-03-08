@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/planetearth"
+    tools:context=".SplashScreen">
+
+    <LinearLayout
+        android:id="@+id/linearSplash"
+        android:layout_width="236dp"
+
+        android:layout_height="185dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="246dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!--<ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+
+            android:baselineAligned="false"
+            app:srcCompat="@drawable/rocketlogo" />-->
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignStart="@+id/linearSplash"
+            android:src="@drawable/rocketlogo"
+            app:civ_border_color="#EEEEEE"
+            app:civ_border_width="4dp"
+            app:civ_shadow="true"
+            app:civ_shadow_color="#8BC34A"
+            app:civ_shadow_radius="10" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginBottom="56dp"
+        android:text="@string/tv_inicio"
+        android:textColor="@color/WhitePlanetB_color"
+        android:textSize="34sp"
+        app:fontFamily="@font/bromello" />
+
+    <TextView
+        android:id="@+id/tvFrase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginLeft="121dp"
+        android:layout_marginBottom="26dp"
+        android:text="@string/tv_frase"
+        android:textColor="@color/WhitePlanetB_color"
+        android:textSize="16sp" />
+
+</RelativeLayout>

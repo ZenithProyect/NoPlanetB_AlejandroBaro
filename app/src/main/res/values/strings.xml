@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NoPlanetB_AlejandroBaro</string>
+    <string name="tv_inicio">No planet B</string>
+    <string name="tv_frase">too late for leaving...</string>
+    <string name="tv_correo_hint">User Email</string>
+    <string name="tv_pwd_hint">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="tvHelp">No have account? Click Here !!</string>
+    <string name="tvUser">User</string>
+    <string name="tvPwd_hint">Password</string>
+    <string name="tv_user_hint">User</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="tv_email_hint">Email</string>
+    <string name="btn_email">EMAIL</string>
+    <string name="tv_info">A material metaphor is the unifying theory of a rationalized space and a system of motion. The material is grounded in tactile reality, inspired by the study of paper and ink, yet technologically advanced and open to imagination and magic.  Surfaces and edges of the material provide visual cues that are grounded in reality. The use of familiar tactile attributes helps users quickly understand affordances. Yet the flexibility of the material creates new affordances that supercede those in the physical world, without breaking the rules of physics.  The fundamentals of light, surface, and movement are key to conveying how objects move, interact, and exist in space and in relation to each other. Realistic lighting shows seams, divides space, and indicates moving parts.</string>
+</resources>
